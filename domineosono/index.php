@@ -374,8 +374,7 @@
                         <h3>O que você vai receber:</h3>
                         <ul class="package-list">
                             <li><i class="fas fa-check"></i> Ebook completo "Domine o Sono" (10 capítulos)</li>
-                            <li><i class="fas fa-check"></i> Suporte por email por 30 dias</li>
-                            <li><i class="fas fa-check"></i> Garantia de 30 dias</li>
+                            <li><i class="fas fa-check"></i> Garantia de 7 dias</li>
                         </ul>
                     </div>
                     <div class="price-section">
