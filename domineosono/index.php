@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="hero-cta">
-                        <a href="#comprar" class="btn-primary">
+                        <a href="https://pay.cakto.com.br/74ki58a_541158" class="btn-primary" target="_blank">
                             <i class="fas fa-download"></i>
                             BAIXAR AGORA POR APENAS R$ 17
                         </a>
@@ -388,11 +388,11 @@
                     </div>
                     
                     <div class="purchase-buttons">
-                        <a href="#" class="btn-primary btn-large pix-btn">
+                        <a href="https://pay.cakto.com.br/74ki58a_541158" class="btn-primary btn-large pix-btn" target="_blank">
                             <i class="fas fa-qrcode"></i>
                             COMPRAR COM PIX - R$ 17
                         </a>
-                        <a href="#" class="btn-primary btn-large card-btn">
+                        <a href="https://pay.cakto.com.br/74ki58a_541158" class="btn-primary btn-large card-btn" target="_blank">
                             <i class="fas fa-credit-card"></i>
                             COMPRAR COM CARTÃO - R$ 17
                         </a>
@@ -404,8 +404,16 @@
                             <span>Compra 100% Segura</span>
                         </div>
                         <div class="badge">
-                            <i class="fas fa-medal"></i>
-                            <span>Garantia 30 dias</span>
+                            <i class="fas fa-undo"></i>
+                            <span>Garantia 7 dias</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-lock"></i>
+                            <span>SSL Certificado</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-download"></i>
+                            <span>Download Imediato</span>
                         </div>
                     </div>
                     
@@ -459,6 +467,15 @@
                         <p>Oferecemos garantia incondicional de 7 dias. Se não ficar satisfeito, devolvemos 100% do seu dinheiro, sem perguntas!</p>
                     </div>
                 </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h4>Como funciona a garantia de 7 dias?</h4>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Oferecemos garantia incondicional de 7 dias. Se por qualquer motivo você não ficar satisfeito com o conteúdo, basta solicitar o reembolso total dentro deste prazo.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -490,7 +507,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 Domine o Sono. Todos os direitos reservados.</p>
+                <p>&copy; 2025 Domine o Sono. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
