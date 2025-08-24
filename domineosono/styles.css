@@ -817,6 +817,248 @@ body {
     margin: 0;
 }
 
+/* Ebooks Page Styles */
+.ebooks-hero {
+    padding: 8rem 0 4rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    text-align: center;
+}
+
+.ebooks-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.ebooks-hero p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.ebooks-grid-section {
+    padding: 5rem 0;
+    background: #f8f9fa;
+}
+
+.ebooks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.ebook-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.ebook-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.ebook-card.featured {
+    border: 3px solid #f39c12;
+}
+
+.ebook-image {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ebook-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ebook-placeholder {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.ebook-placeholder i {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+.ebook-placeholder h4 {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+.featured-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #e74c3c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.ebook-info {
+    padding: 2rem;
+}
+
+.ebook-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.ebook-subtitle {
+    color: #7f8c8d;
+    margin-bottom: 1.5rem;
+    line-height: 1.4;
+}
+
+.ebook-features {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.ebook-features .feature {
+    font-size: 0.9rem;
+    color: #27ae60;
+    font-weight: 500;
+}
+
+.ebook-price {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.ebook-price .old-price {
+    text-decoration: line-through;
+    color: #95a5a6;
+    font-size: 1rem;
+}
+
+.ebook-price .current-price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #e74c3c;
+}
+
+.ebook-price .discount {
+    background: #27ae60;
+    color: white;
+    padding: 0.3rem 0.8rem;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.btn-ebook {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.btn-ebook:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-decoration: none;
+}
+
+.btn-coming-soon {
+    background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+    cursor: not-allowed;
+}
+
+.btn-coming-soon:hover {
+    transform: none;
+    box-shadow: none;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    padding: 4rem 0;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    text-align: center;
+}
+
+.newsletter-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.newsletter-content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.newsletter-form {
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto 1rem;
+    gap: 1rem;
+}
+
+.newsletter-form input {
+    flex: 1;
+    padding: 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.newsletter-form button {
+    padding: 1rem 2rem;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.newsletter-form button:hover {
+    background: #c0392b;
+}
+
+.newsletter-note {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+/* Navigation Active State */
+.nav-menu a.active {
+    color: #3498db;
+    font-weight: 600;
+}
+
 .btn-large {
     font-size: 1.3rem;
     padding: 1.5rem 3rem;
@@ -960,6 +1202,30 @@ body {
     .security-badges {
         flex-direction: column;
         gap: 0.5rem;
+    }
+
+    /* Ebooks Page Responsive */
+    .ebooks-hero h1 {
+        font-size: 2rem;
+    }
+
+    .ebooks-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .ebook-card {
+        margin: 0 1rem;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .newsletter-form input,
+    .newsletter-form button {
+        width: 100%;
     }
 }
 

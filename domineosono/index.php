@@ -22,6 +22,7 @@
                     <li><a href="#sobre">Sobre</a></li>
                     <li><a href="#capitulos">Capítulos</a></li>
                     <li><a href="#depoimentos">Depoimentos</a></li>
+                    <li><a href="../ebooks.php">Ebooks</a></li>
                     <li><a href="#comprar" class="btn-cta">Comprar Agora</a></li>
                 </ul>
                 <div class="hamburger">
